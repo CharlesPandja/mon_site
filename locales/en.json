@@ -1,0 +1,63 @@
+{
+    "translation_action" : "Translate",
+    "selected_language_english" : "english",
+    "selected_language_french" : "french",
+    "selected_language_spanish" : "spanish",
+    "selected_language_german" : "german",
+    "selected_language_chinese" : "chinese",
+
+    "title" : "Web developer",
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "welcome": "Welcome",
+    "welcome_message": "My name is Charles Pandja. This platform presents my portfolio and links to GitHub repositories.",
+    "portfolio_applications": "Portfolio > Web Applications",
+
+    "project_ecommerce_title": "E-commerce",
+    "project_ecommerce_description": "A web application for browsing and selecting products, managing a cart, and placing orders. Main technology used: PHP (MVC).",
+    
+    "project_salary_title": "Salary Management",
+    "project_salary_description": "An application to manage and visualize (graphically) your monthly expenses. Simple, elegant, and effective. Technologies used: JavaScript, HTML, CSS.",
+    
+    "project_butcher_title": "Butchery",
+    "project_butcher_description": "A web app allowing customers to create an account and log in to place secure orders. Technologies used: JavaScript, HTML, CSS, PHP. Database: MySQL.",
+   
+    "project_quiz_title": "Quiz Game",
+    "project_quiz_description" : "An interactive platform designed to test users' knowledge on various topics. Technologies used: HTML, CSS, JavaScript.",
+
+    "project_calculator_title" : "Calculator",
+    "project_calculator_description" : "Web program written mainly in javascript and performing mathematical operations like acalculator. Technologies used: HTML, CSS and Javascript",
+
+    "project_breaker_title" : "Brick Breaker Game",
+    "project_breaker_description" : "Brick Breaker Game Web App! Developed in HTML, CSS and JavaScript, this timeless classic provides you with hours of addictive entertainment.",
+
+    "project_inventory_title" : "Inventory",
+    "project_inventory_description" : "An interactive platform designed to perform inventories. Mainly used technology: PHP (MVC model).",
+
+    "project_real_estate_title" : "Real estate managing",
+    "project_real_estate_description" : "Deprecated web program. Under construction...",
+
+    "project_car_title" : "Car management",
+    "project_car_description" : "Deprecated web program. Under construction...",
+
+    "portfolio_sites": "Portfolio > Websites",
+    "portfolio_keutch_title" : "Groupe Keutch",
+    "portfolio_keutch_description" : "Website created in 2019 for Groupe Keutch. CMS used: WordPress",
+
+    "portfolio_somexport_title" : "Somexport",
+    "portfolio_somexport_description" : "Website allowing customers to view the products offered and to contact sellers. CMS used: WordPress",
+
+    "go_to_github" : "Go to github",
+
+    "coming_title" : "In coming",
+    "coming_description" : "Other sites are in the process of being created...",
+
+    "contact_title": "Contact",
+    "name_label": "Name:",
+    "email_label": "Email:",
+    "objet_label": "Subject:",
+    "message_label": "Message:",
+    "submit_button": "Send",
+    "footer_text": "&copy; 2024 Charles Pandja. All rights reserved."
+}

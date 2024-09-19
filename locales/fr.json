@@ -1,0 +1,63 @@
+{
+    "translation_action" : "Tranduire",
+    "selected_language_english" : "anglais",
+    "selected_language_french" : "français",
+    "selected_language_spanish" : "espagnol",
+    "selected_language_german" : "allemand",
+    "selected_language_chinese" : "chinois",
+    
+    "title" : "Développeur Web",
+    "home": "Accueil",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "welcome": "Bienvenue",
+    "welcome_message": "Je m'appelle Charles Pandja. Cette plateforme vous présente mon portfolio ainsi que les liens vers les dépôts github.",
+    "portfolio_applications": "Portfolio > Applications web",
+
+    "project_ecommerce_title": "E-commerce",
+    "project_ecommerce_description": "Application web permettant de parcourir et de sélectionner des produits, gérer un panier et passer des commandes. Principale technologie utilisée: PHP (MVC).",
+    
+    "project_salary_title": "Gestion salaire",
+    "project_salary_description": "Une application pour gérer et visualiser (graphique) ses dépenses mensuelles. Simple, élégante et efficace. Technologies utilisées: JavaScript, HTML, CSS.",
+    
+    "project_butcher_title": "Boucherie",
+    "project_butcher_description": "Une webapp permettant aux clients de créer un compte et de se connecter afin de passer des commandes sécurisées. Technologies utilisées: JavaScript, HTML, CSS, PHP. Base de données : MySQL.",
+    
+    "project_quiz_title": "Jeu de Quiz",
+    "project_quiz_description" : "Une plateforme interactive conçue pour tester les connaissances des utilisateurs sur divers sujets. Technologies utilisées: HTML, CSS, JavaScript.",
+
+    "project_calculator_title" : "Calculatrice",
+    "project_calculator_description" : "Programme web écrit principalement en javascript et effectuant des opérations mathématiques comme une calculatrice. Technologies utilisées : HTML, CSS et Javascript",
+
+    "project_breaker_title" : "Jeu de casse-brique",
+    "project_breaker_description" : "Application web de jeu de Casse-Briques ! Développée en HTML, CSS et JavaScript, ce classique intemporel vous offre des heures de divertissement addictif.",
+
+    "project_inventory_title" : "Inventaire",
+    "project_inventory_description" : "Une plateforme interactive conçue pour effectuer des inventaires. Technologie principalement utilsée : PHP (Modèle MVC).",
+
+    "project_real_estate_title" : "Gestion immobilière",
+    "project_real_estate_description" : "Programme web obsolète. En travaux...",
+
+    "project_car_title" : "Gestion de parc automobile",
+    "project_car_description" : "Programme web obsolète. En travaux...",
+    
+    "portfolio_sites": "Portfolio > Sites web",
+    "portfolio_keutch_title" : "Groupe Keutch",
+    "portfolio_keutch_description" : "Site internet réalisé en 2019 pour le compte de la société Groupe Keutch. CMS utilisé : WordPress",
+
+    "portfolio_somexport_title" : "Somexport",
+    "portfolio_somexport_description" : "Site internet permettant aux clients de consulter les produits proposées et d'entrer en contact avec les commerciaux. CMS utilisé : WordPress",
+
+    "coming_title" : "A venir",
+    "coming_description" : "D'autres sites sont en projet de création...",
+
+    "go_to_github" : "Aller sur github",
+
+    "contact_title": "Contact",
+    "name_label": "Nom :",
+    "email_label": "Email :",
+    "objet_label": "Objet :",
+    "message_label": "Message :",
+    "submit_button": "Envoyer",
+    "footer_text": "&copy; 2024 Charles Pandja. Tous droits réservés."
+}

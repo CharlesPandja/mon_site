@@ -1,0 +1,63 @@
+{
+    "translation_action" : "翻译",
+    "selected_language_english" : "英语",
+    "selected_language_french" : "法语",
+    "selected_language_spanish" : "西班牙语",
+    "selected_language_german" : "德语",
+    "selected_language_chinese" : "中文",
+    
+    "title" : "网页开发者",
+    "home": "主页",
+    "portfolio": "作品集",
+    "contact": "联系",
+    "welcome": "欢迎",
+    "welcome_message": "我叫Charles Pandja。这个平台向您展示我的作品集以及GitHub仓库的链接。",
+    "portfolio_applications": "作品集 > 网络应用程序",
+
+    "project_ecommerce_title": "电子商务",
+    "project_ecommerce_description": "一个网络应用程序，用于浏览和选择商品、管理购物车并下单。主要使用的技术：PHP (MVC)。",
+    
+    "project_salary_title": "薪资管理",
+    "project_salary_description": "一个用于管理和可视化（月度开支图表）的应用程序。简单、优雅且高效。使用的技术：JavaScript、HTML、CSS。",
+    
+    "project_butcher_title": "肉店",
+    "project_butcher_description": "一个允许客户创建账户并登录以进行安全订单的网络应用程序。使用的技术：JavaScript、HTML、CSS、PHP。数据库：MySQL。",
+    
+    "project_quiz_title": "测验游戏",
+    "project_quiz_description" : "一个互动平台，用于测试用户对各种主题的知识。使用的技术：HTML、CSS、JavaScript。",
+
+    "project_calculator_title" : "计算器",
+    "project_calculator_description" : "一个主要用JavaScript编写的网络程序，可以像计算器一样执行数学运算。使用的技术：HTML、CSS和JavaScript。",
+
+    "project_breaker_title" : "打砖块游戏",
+    "project_breaker_description" : "打砖块游戏的网络应用程序！使用HTML、CSS和JavaScript开发，这款永不过时的经典游戏将为您带来数小时的沉浸式娱乐。",
+    
+    "project_inventory_title" : "库存管理",
+    "project_inventory_description" : "一个用于执行库存管理的互动平台。主要使用的技术：PHP (MVC模式)。",
+
+    "project_real_estate_title" : "房地产管理",
+    "project_real_estate_description" : "过时的网络程序。正在进行中...",
+
+    "project_car_title" : "车队管理",
+    "project_car_description" : "过时的网络程序。正在进行中...",
+    
+    "portfolio_sites": "作品集 > 网站",
+    "portfolio_keutch_title" : "Keutch集团",
+    "portfolio_keutch_description" : "为Keutch集团公司在2019年制作的网站。使用的CMS：WordPress",
+
+    "portfolio_somexport_title" : "Somexport",
+    "portfolio_somexport_description" : "一个允许客户查看产品并与销售人员联系的网站。使用的CMS：WordPress",
+
+    "coming_title" : "即将推出",
+    "coming_description" : "其他网站正在创建中...",
+
+    "go_to_github" : "访问GitHub",
+
+    "contact_title": "联系",
+    "name_label": "姓名：",
+    "email_label": "电子邮件：",
+    "objet_label": "主题 (Zhǔtí)：",
+    "message_label": "信息：",
+    "submit_button": "发送",
+    "footer_text": "&copy; 2024 Charles Pandja。版权所有。"
+}

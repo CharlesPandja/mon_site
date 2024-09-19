@@ -1,0 +1,63 @@
+{
+    "translation_action" : "Übersetzen",
+    "selected_language_english" : "Englisch",
+    "selected_language_french" : "Französisch",
+    "selected_language_spanish" : "Spanisch",
+    "selected_language_german" : "Deutsch",
+    "selected_language_chinese" : "Chinesisch",
+    
+    "title" : "Webentwickler",
+    "home": "Startseite",
+    "portfolio": "Portfolio",
+    "contact": "Kontakt",
+    "welcome": "Willkommen",
+    "welcome_message": "Mein Name ist Charles Pandja. Diese Plattform stellt Ihnen mein Portfolio sowie die Links zu den GitHub-Repositories vor.",
+    "portfolio_applications": "Portfolio > Webanwendungen",
+
+    "project_ecommerce_title": "E-Commerce",
+    "project_ecommerce_description": "Webanwendung zum Durchsuchen und Auswählen von Produkten, Verwalten eines Warenkorbs und Aufgeben von Bestellungen. Haupttechnologie verwendet: PHP (MVC).",
+    
+    "project_salary_title": "Gehaltsverwaltung",
+    "project_salary_description": "Eine Anwendung zur Verwaltung und grafischen Darstellung Ihrer monatlichen Ausgaben. Einfach, elegant und effizient. Verwendete Technologien: JavaScript, HTML, CSS.",
+    
+    "project_butcher_title": "Metzgerei",
+    "project_butcher_description": "Eine Webanwendung, die es Kunden ermöglicht, ein Konto zu erstellen und sich anzumelden, um sichere Bestellungen aufzugeben. Verwendete Technologien: JavaScript, HTML, CSS, PHP. Datenbank: MySQL.",
+    
+    "project_quiz_title": "Quiz-Spiel",
+    "project_quiz_description" : "Eine interaktive Plattform, die entwickelt wurde, um das Wissen der Benutzer zu verschiedenen Themen zu testen. Verwendete Technologien: HTML, CSS, JavaScript.",
+
+    "project_calculator_title" : "Taschenrechner",
+    "project_calculator_description" : "Webanwendung, die hauptsächlich in JavaScript geschrieben wurde und mathematische Operationen wie ein Taschenrechner durchführt. Verwendete Technologien: HTML, CSS und JavaScript.",
+
+    "project_breaker_title" : "Breakout-Spiel",
+    "project_breaker_description" : "Webanwendung des Breakout-Spiels! Entwickelt in HTML, CSS und JavaScript, bietet Ihnen dieser zeitlose Klassiker stundenlangen süchtig machenden Spaß.",
+
+    "project_inventory_title" : "Inventar",
+    "project_inventory_description" : "Eine interaktive Plattform, die für die Durchführung von Inventuren entwickelt wurde. Hauptsächlich verwendete Technologie: PHP (MVC-Modell).",
+
+    "project_real_estate_title" : "Immobilienverwaltung",
+    "project_real_estate_description" : "Veraltetes Webprogramm. In Arbeit...",
+
+    "project_car_title" : "Fuhrparkverwaltung",
+    "project_car_description" : "Veraltetes Webprogramm. In Arbeit...",
+    
+    "portfolio_sites": "Portfolio > Websites",
+    "portfolio_keutch_title" : "Gruppe Keutch",
+    "portfolio_keutch_description" : "Website erstellt im Jahr 2019 für die Firma Gruppe Keutch. Verwendetes CMS: WordPress",
+
+    "portfolio_somexport_title" : "Somexport",
+    "portfolio_somexport_description" : "Website, die es den Kunden ermöglicht, die angebotenen Produkte einzusehen und mit den Vertriebsmitarbeitern in Kontakt zu treten. Verwendetes CMS: WordPress",
+
+    "coming_title" : "Demnächst",
+    "coming_description" : "Weitere Websites sind in Planung...",
+
+    "go_to_github" : "Zu GitHub gehen",
+
+    "contact_title": "Kontakt",
+    "name_label": "Name:",
+    "email_label": "E-Mail:",
+    "objet_label": "Betreff:",
+    "message_label": "Nachricht:",
+    "submit_button": "Senden",
+    "footer_text": "&copy; 2024 Charles Pandja. Alle Rechte vorbehalten."
+}

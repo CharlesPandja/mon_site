@@ -2,13 +2,17 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #0d1117; /* Fond du body */
-    color: #ffffff; /* Texte en blanc pour le contraste */
+    background-color: #0d1117;
+    /* Fond du body */
+    color: #ffffff;
+    /* Texte en blanc pour le contraste */
 }
 
 header {
-    background: #24292f; /* Couleur de fond du header */
-    color: #ffffff; /* Texte en blanc pour le contraste */
+    background: #24292f;
+    /* Couleur de fond du header */
+    color: #ffffff;
+    /* Texte en blanc pour le contraste */
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -17,6 +21,7 @@ header {
 }
 
 nav ul {
+    position: relative;
     list-style: none;
     padding: 0;
     text-align: center;
@@ -28,8 +33,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #ffffff; /* Texte des liens en blanc pour le contraste */
+    color: #ffffff;
+    /* Texte des liens en blanc pour le contraste */
     text-decoration: none;
+}
+
+li img {
+    position: absolute;
+    left: 65%;
+    cursor: pointer;
+}
+
+select {
+    background-color: #24292f;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 section {
@@ -38,25 +58,69 @@ section {
     margin-top: 60px;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
 .welcome {
     font-style: italic;
-    padding-left: 15%;
+    padding-left: 25%;
+    width: 50%;
     display: flex;
+    position: relative
+}
+
+.image {
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+
 }
 
 .text {
-    padding: 5%;
+    padding: 10px;
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    background-color: #7d5743;
+    border-radius: 10px 10px 10px 10px;
+    z-index: 2;
+}
+
+/*Le media query qui permet de modifier le style lorsque l'on est à une largeur d'écran inférieure ou égale à 600px */
+@media (max-width: 600px) {
+    .welcome {
+        width: auto;
+        height: auto;
+    }
+
+    .image {
+        top: 100px;
+        left: 50px;
+    }
+
+    .part {
+        flex-direction: column;
+    }
 }
 
 #welcome {
     padding: 60px 20px;
-    color: #ffffff; /* Texte foncé pour le contraste */
+    color: #ffffff;
+    height: 450px;
+
 }
 
-#portfolio, #contact {
+#portfolio,
+#contact {
     padding: 40px 20px;
     margin: 20px 0;
-    color: #5c5c5c; /* Texte foncé pour le contraste */
+    color: #5c5c5c;
+    /* Texte foncé pour le contraste */
 }
 
 /* Contact form styles */
@@ -75,6 +139,8 @@ section {
     color: #ffffff;
 }
 
+
+
 #contactForm input[type="text"],
 #contactForm input[type="email"],
 #contactForm textarea {
@@ -88,26 +154,72 @@ section {
 }
 
 .project {
+    position: relative;
     text-align: justify;
-    padding : 1px 15px;
+    padding: 1px 15px;
     margin: 10px 10px;
     border-radius: 10px;
-    border: 1px solid ;
+    border: 1px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 600px;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    border-radius: 10px;
+    margin-right: 70px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.prev,
+.github,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(108, 108, 108, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.prev {
+    left: 10px;
+}
+
+.github {
+    left: 33%;
+}
+
+.next {
+    right: 10px;
 }
 
 .project h3 {
-    color: #1f6feb; /* Bleu vif */
+    color: #1f6feb;
+    /* Bleu vif */
 }
 
-.part1 {
+.part {
     padding-left: 5%;
     padding-right: 5%;
-    display:flex;
+    display: flex;
 }
 
 #contactForm button {
-    background-color: #333; 
-    color: #ffffff; /* Texte en blanc pour le contraste */
+    background-color: #333;
+    color: #ffffff;
+    /* Texte en blanc pour le contraste */
     border: none;
     padding: 15px 30px;
     cursor: pointer;
@@ -117,39 +229,18 @@ section {
 }
 
 #contactForm button:hover {
-    background-color: #4d4c4c; /* Vert légèrement plus foncé pour le hover */
+    background-color: #4d4c4c;
+    /* Vert légèrement plus foncé pour le hover */
 }
 
 
 footer {
-    background: #0d1117; /* Couleur de fond du footer */
-    color: #ffffff; /* Texte en blanc pour le contraste */
+    background: #0d1117;
+    /* Couleur de fond du footer */
+    color: #ffffff;
+    /* Texte en blanc pour le contraste */
     text-align: center;
     padding: 10px 0;
-}
-
-/* Modal styles */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 60px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 600px;
-    color: #333333; /* Texte foncé pour le contraste */
 }
 
 .close {
@@ -166,8 +257,115 @@ footer {
     cursor: pointer;
 }
 
-#cv-content {
-    text-align: left;
-    margin: 0 auto;
-    color: #6C757D; /* Texte secondaire gris clair */
+
+/*Partie relative au popup*/
+.cv {
+    cursor: pointer;
+}
+
+.cvBackground {
+    display: none; /* Masqué par défaut */
+    color: black;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    position: fixed; /* Fixé à la fenêtre */
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Au-dessus de tout le reste */
+}
+
+.cvInterface {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+.btnCvClose {
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btnCvClose:hover {
+    color: black;
+}
+
+.btnCvEn, .btnCvFr {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.btnCvEn:hover, .btnCvFr:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.btnCvEn::before, .btnCvFr::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s ease;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+.btnCvEn:hover::before, .btnCvFr:hover::before {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.btnCvEn a, .btnCvFr a {
+    text-decoration: none; /* Retire le soulignement */
+    color: white; /* Assure que le texte soit blanc */
+    display: block; /* Permet au lien de prendre tout l'espace du bouton */
+    width: 100%; /* Le lien prendra toute la largeur du bouton */
+    height: 100%; /* Le lien prendra toute la hauteur du bouton */
+}
+
+.btnCvEn a:hover, .btnCvFr a:hover {
+    color: white; /* Le texte reste blanc même au survol */
+}
+
+.btnCvNo {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnCvNo:hover {
+    background-color: #d32f2f;
 }
